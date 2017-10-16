@@ -1,0 +1,23 @@
+<html>
+<body>
+<head>
+<style>
+h5 {color:red;}
+</style>
+</head>
+
+<h2><center>-:Enter your roll no:-</center></h2>
+
+<h5>Note** - This form is only designed for giving very basic idea about get post in flask.So there are no
+form validations or any javascript/css files are used. You can apply them yourself if you want.</h5>
+
+<form action = '{{url_for('display_student_details')}}' method = 'POST'>
+
+Roll No. : <input type = 'number' name = 'roll'><br><br>
+<input type = 'submit' value = 'Search'>
+
+
+</form>
+
+</body>
+</html>

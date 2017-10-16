@@ -1,0 +1,25 @@
+<html>
+<body>
+<head>
+<style>
+h5 {color : red;}
+</style>
+</head>
+
+
+<h2><center>-:Student Registration:-</center></h2>
+
+<h5>Note** - This form is only designed for giving very basic idea about get post in flask.So, there are no
+form validations or any javascript/css files  used. You can apply them yourself if you want.</h5>
+
+<form action = '{{url_for('add_student')}}' method = 'POST'>
+
+Name : <input type = 'text' name = 'name'><br><br>
+Roll No. : <input type = 'number' name = 'roll'><br><br>
+<input type = 'submit' value = 'Add'>
+
+
+</form>
+
+</body>
+</html>
