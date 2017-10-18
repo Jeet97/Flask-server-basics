@@ -6,7 +6,7 @@ This repo gives basic introduction about implementing flask server,sqlalchemy an
 <p>http://localhost:2323/     **While client and server apps are on same device.</p>
 <p>http://SERVER'S IP ADDRESS:2323/     **While client and server apps are on different devices but same network.</p>
 
-<p>Note:- The full url's of different tasks are written in urls.txt in same folder as server.py.</p>
+<p>Note:- The full url's of different tasks are written in README.txt in same folder as server.py.</p>
 </pre>
 <h2>Runnning and setup</h2>
 <ol>
