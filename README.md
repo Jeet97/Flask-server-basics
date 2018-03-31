@@ -15,4 +15,5 @@ This repo gives basic introduction about implementing flask server,sqlalchemy an
 <li>Run server.py file.</li>
 
 <li>Then enter url/json endpoint on browser or  any other android application.</li>
+</ol>
 
